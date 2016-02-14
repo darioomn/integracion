@@ -11,6 +11,8 @@ To [ssh](https://docs.docker.com/machine/reference/ssh/#ssh) into a [Docker Mach
 ```
 docker-machine ssh machinename
 ```
+###References
+
 [Docker on Mac OS X](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
 
 [Docker Jenkins](https://hub.docker.com/_/jenkins/)
@@ -19,11 +21,31 @@ docker-machine ssh machinename
 
 [Docker Self Pace Training](https://training.docker.com/self-paced-training)
 
+[Docker Get Started](https://docs.docker.com/mac/)
 
+[Docker Quick Start](https://docs.docker.com/engine/quickstart/#quickstart-docker-enginez)
 
+###Basic Docker Commands
+`docker-machine start machine` Starts a stopped machine
+
+`docker-machine stop machine` Stops machine
+
+[more](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
+
+###Troubleshooting
+Error Message: "Cannot connect to the Docker daemon. Is the docker daemon running on this host?"
+
+Solution: `eval $(docker-machine env machinename)` to connect to Docker daemon(Docker Engine)
 
 
 #MarkDown CheatSheet
+#h1
+##h2
+###h3
+####h4
+#####h5
+######h6
+
 _italicize_
 
 **bold**
