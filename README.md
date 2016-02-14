@@ -11,7 +11,9 @@ To [ssh](https://docs.docker.com/machine/reference/ssh/#ssh) into a [Docker Mach
 ```
 docker-machine ssh machinename
 ```
+[Docker on Mac OS X](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
 
+[Docker Jenkins](https://hub.docker.com/_/jenkins/)
 #MarkDown CheatSheet
 _italicize_
 
