@@ -2,10 +2,15 @@
 
 To use [Docker](https://www.docker.com/) to start [Jenkins](https://jenkins-ci.org/):
 
-`docker run -p 8080:8080 -p 50000:50000 jenkins`
+```
+docker run -p 8080:8080 -p 50000:50000 jenkins
+```
 
-To ssh into a Docker Machine (your linux virtual machine):
-`docker-machine ssh machinename`
+To [ssh](https://docs.docker.com/machine/reference/ssh/#ssh) into a [Docker Machine](https://docs.docker.com/machine/) (your linux virtual machine):
+
+```
+docker-machine ssh machinename
+```
 
 #MarkDown CheatSheet
 _italicize_
