@@ -1,5 +1,13 @@
-MarkDown CheatSheet
-#Title Font
+#Docker Jenkins Guide
+
+To use [Docker](https://www.docker.com/) to start [Jenkins](https://jenkins-ci.org/):
+
+`docker run -p 8080:8080 -p 50000:50000 jenkins`
+
+To ssh into a Docker Machine (your linux virtual machine):
+`docker-machine ssh machinename`
+
+#MarkDown CheatSheet
 _italicize_
 
 **bold**
@@ -25,11 +33,7 @@ String code = "java";
 [1]: http://stackoverflow.com
 [so]: http://stackoverflow.com
 
-#Docker Jenkins Guide
 
-To use [Docker](https://www.docker.com/) to start [Jenkins](https://jenkins-ci.org/):
-
-`docker run -p 8080:8080 -p 50000:50000 jenkins`
 
 
 
