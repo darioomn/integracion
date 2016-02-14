@@ -11,19 +11,6 @@ To [ssh](https://docs.docker.com/machine/reference/ssh/#ssh) into a [Docker Mach
 ```
 docker-machine ssh machinename
 ```
-###References
-
-[Docker on Mac OS X](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
-
-[Docker Jenkins](https://hub.docker.com/_/jenkins/)
-
-[Docker CI Resources](http://www.docker.com/use-cases/continuous-integration#resources)
-
-[Docker Self Pace Training](https://training.docker.com/self-paced-training)
-
-[Docker Get Started](https://docs.docker.com/mac/)
-
-[Docker Quick Start](https://docs.docker.com/engine/quickstart/#quickstart-docker-enginez)
 
 ###Basic Docker Commands
 `docker-machine start machine` Starts a stopped machine
@@ -37,6 +24,19 @@ Error Message: "Cannot connect to the Docker daemon. Is the docker daemon runnin
 
 Solution: `eval $(docker-machine env machinename)` to connect to Docker daemon(Docker Engine)
 
+###References
+
+[Docker on Mac OS X](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
+
+[Docker Jenkins](https://hub.docker.com/_/jenkins/)
+
+[Docker CI Resources](http://www.docker.com/use-cases/continuous-integration#resources)
+
+[Docker Self Pace Training](https://training.docker.com/self-paced-training)
+
+[Docker Get Started](https://docs.docker.com/mac/)
+
+[Docker Quick Start](https://docs.docker.com/engine/quickstart/#quickstart-docker-enginez)
 
 #MarkDown CheatSheet
 #h1
