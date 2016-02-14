@@ -14,6 +14,15 @@ docker-machine ssh machinename
 [Docker on Mac OS X](https://docs.docker.com/engine/installation/mac/#learn-the-key-concepts-before-installing)
 
 [Docker Jenkins](https://hub.docker.com/_/jenkins/)
+
+[Docker CI Resources](http://www.docker.com/use-cases/continuous-integration#resources)
+
+[Docker Self Pace Training](https://training.docker.com/self-paced-training)
+
+
+
+
+
 #MarkDown CheatSheet
 _italicize_
 
